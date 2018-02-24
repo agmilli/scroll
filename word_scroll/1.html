@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+<style>
+	html{
+    height: 100%;
+    overflow-x: hidden;
+}
+body{
+    height: 200%;
+    width: 100%;
+    background-image: url("http://ww2.sinaimg.cn/large/006mwlTsgw1f7ixmkutsyj30jg0rigqc.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+}
+
+div{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-size: 4rem;
+    color:#37cc37;
+}
+</style>
+</head>
+<body>
+<div>
+  <h1>MIKU</h1>
+</div>
+	<script>
+		window.onscroll = function(){
+		    var speed = 4.0;
+		    document.body.style.backgroundPositionY = (-window.pageYOffset/speed) + "px";
+		}
+	</script>
+</body>
+</html>
